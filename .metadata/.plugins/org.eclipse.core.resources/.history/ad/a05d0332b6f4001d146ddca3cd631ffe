@@ -1,0 +1,21 @@
+package desafio_uml;
+
+
+public class Main {
+	
+	public static void main(String[] args) {
+		IPhone iphone = new IPhone();
+		
+		iphone.atender();
+		iphone.ligar();
+		iphone.iniciarCorreioVoz();
+		
+		iphone.adicionarNovaAba();
+		iphone.exibirPagina();
+		iphone.atualizarPagina();
+		
+		iphone.selecionarMusica();
+		iphone.tocar();
+		iphone.pausar();
+	}
+}
